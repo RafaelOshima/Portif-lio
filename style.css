@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+a {
+  color: #837E9F;
+}
+
+body {
+  display: flex;
+  gap: 60px;
+
+  background-color: #22212C;
+  color: #837E9F;
+  font-family: 'Merriweather Sans', sans-serif;
+
+  width: 100%;
+  max-width: 1360px;
+  margin: 50px auto;
+}
+
+aside {
+  flex-basis: 348px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+main {
+  flex-basis: 952px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 29px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.geral-settings {
+  background-color: #302F3D;
+  border-radius: 20px;
+}
+
+#error-code-section {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+/* profile section */
+#profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+
+  height: 292px;
+}
+
+#profile img {
+  padding-bottom: 20px;
+}
+
+/* network section */
+#network {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  padding: 30px 40px;
+}
+
+#network li a {
+  display: flex;
+  gap: 20px;
+}
+
+/* Technologies section */
+#technologies {
+  padding: 30px 20px;
+}
+
+#technologies ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 40px 40px 40px;
+}
+
+#technologies h2 {
+  padding-bottom: 20px;
+}
+
+.techno p {
+  background-color: #CB92B1;
+
+  color: #000000;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 13px;  
+  text-align: center;
+
+  width: 86px;
+  height: 24px;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.exp-edu {
+  padding: 30px 20px;
+}
+
+.exp-edu ul {
+  width: 240px;
+  padding: 20px 40px 0;
+}
+
+.exp-edu ul li {
+  padding-bottom: 20px;
+}
